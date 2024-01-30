@@ -28,6 +28,9 @@ def get_weather(msg):
         if weather.lower() == 'clear':
             file = open('img/clear.bmp', 'rb')
             bot.send_photo(msg.chat.id, file)
+        if weather.lower() == 'snow':
+            file = open('img/snow.bmp', 'rb')
+            bot.send_photo(msg.chat.id, file)
     else:
         bot.reply_to(msg, f'Город не найден')
 
