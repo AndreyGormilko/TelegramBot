@@ -3,8 +3,8 @@ from telebot import types
 import requests
 import json
 
-bot = telebot.TeleBot('6570604194:AAGhEyZpIvDXheMyHCGbY69qc2mRZUgvAM0')
-API = '24d64e7a107896ae0ce4831920542be7'
+bot = telebot.TeleBot('*******')
+API = '**********'
 
 @bot.message_handler(commands=['start'])
 def start(msg):
